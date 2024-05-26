@@ -8,4 +8,4 @@ View detailed recipe information, including ingredients, instructions, and a You
 Navigate back to the search results from the detailed view.
 
 # Demo
-You can see a live demo of the Weather Forecaster App here [https://tahseen-nishat.github.io/Recipe_App/].
+You can see a live demo of the Recipe App here [https://tahseen-nishat.github.io/Recipe_App/].
