@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/01/05/59/48/1000_F_105594803_ekPRfmQCqh5PBqYzceevGhRjpGc0Lhlq.jpg");
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+nav h1{
+    margin-top: 18px;
+    font-size: 30px;
+    color: #1b010c;
+}
+.search_bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38px;
+}
+.search_bar input{
+    width: 350px;
+    height: 37px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding-left:8px;
+    border: 1px solid rgb(116, 118, 112);
+    font-size: 17px;
+}
+.search_bar button{
+    width: 50px;
+    height: 39px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left:-20px ;
+    border: 1px solid rgb(116, 118, 112);
+    background-color: rgb(237, 11, 75);
+    color: aliceblue;
+}
+.search_bar button:hover{
+    cursor: pointer;
+    background-color: rgb(233, 70, 116);
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    gap: 7px;
+}
+.slider_dishes button{
+    position: relative;
+    top: 44px; 
+}
+.slider_dishes .dishVal{
+    width: 100px;
+    height: 34px;
+    cursor: pointer;
+    background-color: rgb(0, 149, 255);
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 22px;
+      
+}
+
+.slider_dishes input:hover{
+    background-color: rgb(217, 215, 215);
+    color: black;
+}
+
+.meals{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.meals .card{
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    text-align: center;
+    margin-inline: 20px;
+    margin-top: 22px;
+    box-shadow: 1px 3px 3px 3px rgb(213, 212, 212);
+    border-radius: 4px;
+}
+.meals .card img{
+    width: 100%;
+    border-radius: 4px;
+}
+.meals .card #name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.meals .card .viewbtn{
+    margin-top: 15px;
+    padding: 7px;
+    background-color: rgb(237, 11, 75);
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+.meals .card .viewbtn:hover{
+    background-color: rgb(233, 70, 116);
+    cursor: pointer;
+}
+
+.newdiv {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap:55px;
+    margin: 40px 30px 80px 40px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 1px 3px 3px 3px rgb(213, 212, 212);
+    background-color: rgba(234, 231, 227, 0.9);
+}
+.newdiv img{
+    width: 32vmax;
+    height: 37vmax;
+    border-radius: 9px;
+    margin: 1vmax 30vmax 1vmax 30vmax;
+}
+.newdiv h1{
+    font-size: 3.10vmax;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+}
+#instructions{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.newdiv p{
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.ingr{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.disc{
+    display: block;
+    
+}
+#vid a{
+    text-decoration: none;
+    color: rgb(250, 247, 247);
+}
+
+.buttonss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap:55px;
+}
+
+#vid,#back{
+    width: 160px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(237, 11, 75);
+    color: rgb(250, 247, 247);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#vid:hover,#back:hover{
+    background-color: rgb(233, 70, 116);
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    .slider_dishes input{
+        width: 90%;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .slider_dishes input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider_dishes input{
+        width: 75px;
+    }
+    .search_bar input{
+        width: 70%;
+    }
+}
+@media screen and (max-width:900px) {
+    .newdiv img{
+        width: 26vmax;
+        height: 32vmax;
+        border-radius: 9px;
+        margin: 1vmax 11vmax 1vmax 11vmax;
+    }
+    .newdiv{
+        width: 80%;
+        font-size: 80%;
+    }
+    
+}
